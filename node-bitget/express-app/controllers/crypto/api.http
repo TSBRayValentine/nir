@@ -1,0 +1,21 @@
+
+# ----------------------------------------------------------
+
+GET http://localhost:3003/api/crypto/saveDataPrice
+
+# ----------------------------------------------------------
+###
+
+GET http://localhost:3003/api/crypto/saveDataInfo
+
+# ----------------------------------------------------------
+# ? Поиск связок
+###
+
+GET http://localhost:3003/api/crypto/findArbitrageOpportunities
+
+
+# ----------------------------------------------------------
+# ! TEST
+###
+GET http://localhost:3003/api/crypto/test

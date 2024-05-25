@@ -1,0 +1,26 @@
+
+# ----------------------------------------------------------
+
+GET http://localhost:3001/api/crypto/saveDataPrice
+
+# ----------------------------------------------------------
+###
+
+GET http://localhost:3001/api/crypto/saveDataInfo
+
+# ----------------------------------------------------------
+# ? Поиск связок
+###
+
+GET http://localhost:3000/api/crypto/findArbitrageOpportunities
+?Currency=MNT
+&Amount=100
+
+# Currency (Выбранная изначальная валюта) 
+# Amount (кол-во изначальной валюты)
+
+
+# ----------------------------------------------------------
+# ! TEST
+###
+GET http://localhost:3000/api/crypto/test
